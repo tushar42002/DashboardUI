@@ -1,0 +1,267 @@
+ body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #d6d4e1;
+ }
+
+nav i , .logo{
+  margin: 10px;
+  font-size: 18px;
+}
+
+nav i{
+  color: #555;
+}
+
+.logo span:nth-child(2){
+  color: #555;
+  font-weight: 600;
+}
+
+
+
+ .sidebar {
+   list-style: none;
+   padding: 0 10px;
+   /* text-align: center; */
+ }
+
+ .sidebar li {
+   padding: 15px 10px;
+   border-radius: 10px;
+   margin-bottom: 8px;
+ }
+
+ .sidebar li a {
+   text-decoration: none;
+   color: #555;
+   font-size: 18px;
+   font-weight: 600;
+ }
+
+ .sidebar li.active, .sidebar li:hover{
+  background:#efeef0;
+ }
+
+ .sidebar li.active a{
+  color: #326df7;
+ }
+
+ .topbox .heading{
+  font-weight: 600;
+ }
+
+ .topbox-btn a{
+  text-decoration: none;
+  color: #fff;
+  background: #326df7;
+  padding: 10px 20px;
+  border-radius: 20px;
+ }
+
+ .databox {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 20px;
+ }
+
+ .databox div {
+   background: #fff;
+   padding: 10px 15px;
+   box-shadow: 5px 5px 3px #d6d4e1;
+ }
+
+ .databox div p {
+   margin: 0;
+   padding: 5px 0 10px;
+   font-size: 12px;
+ }
+
+ .databox div .number-icon {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 15px;
+   font-size: 30px;
+   font-weight: 600;
+   box-shadow: none;
+   color: #555;
+ }
+
+ .graphs {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 20px;
+   gap: 20px;
+ }
+
+ .graphs h3{
+  font-size: 15px;
+  margin-bottom: 0;
+ }
+
+ .graphs p{
+  font-size: 13px;
+  margin-top: 5px;
+ }
+
+ .graphs .Sales-details,
+ .graphs .purchases-details {
+   background: #fff;
+   padding: 0 20px;
+   margin: 0;
+ }
+
+ .graphs .Sales-details .graph1-info {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+ }
+
+ .graph1-info .boxes {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   place-items: center;
+ }
+
+ .graph1-info .boxes .box {
+   width: 40px;
+   height: 20px;
+   background-color: #326df7;
+ }
+
+ .graph1-info .boxes .box:nth-child(1){
+  background: #8eaff9;
+ }
+
+ .graph1-info .boxes p {
+  margin: 0;
+  padding: 0px 10px 4px 0;
+ }
+
+
+
+ .graph1 .graph-boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 250px;
+  place-content: end;
+  text-align: center;
+  padding: 0 50px 20px;
+  column-gap: 20px;
+  border-bottom: 1px solid #b5b4b4;
+ }
+
+ .graph-boxes .graph-box{
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  place-content: end;
+ }
+
+
+
+ .graph-box .graph-item1{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   place-items: end;
+ }
+
+ .graph-item1 div:nth-child(1){
+   background: #8eaff9;
+   height: 100px;
+   width: 100%;
+ }
+
+ .graph-item1 div:nth-child(2){
+   background: #326df7;
+   height: 100px;
+   width: 100%;
+ }
+
+ .graph-box:nth-child(1) .graph-item1 div:nth-child(1){
+  height: 90px;
+ }
+ .graph-box:nth-child(2) .graph-item1 div:nth-child(1){
+  height: 120px;
+ }
+ .graph-box:nth-child(3) .graph-item1 div:nth-child(1){
+  height: 90px;
+ }
+ .graph-box:nth-child(4) .graph-item1 div:nth-child(1){
+  height: 100px;
+ }
+ .graph-box:nth-child(5) .graph-item1 div:nth-child(1){
+  height: 150px;
+ }
+ .graph-box:nth-child(6) .graph-item1 div:nth-child(1){
+  height: 100px;
+ }
+
+ .graph-box:nth-child(1) .graph-item1 div:nth-child(2){
+  height: 140px;
+ }
+ .graph-box:nth-child(2) .graph-item1 div:nth-child(2){
+  height: 170px;
+ }
+ .graph-box:nth-child(3) .graph-item1 div:nth-child(2){
+  height: 120px;
+ }
+ .graph-box:nth-child(4) .graph-item1 div:nth-child(2){
+  height: 80px;
+ }
+ .graph-box:nth-child(5) .graph-item1 div:nth-child(2){
+  height: 110px;
+ }
+ .graph-box:nth-child(6) .graph-item1 div:nth-child(2){
+  height: 150px;
+ }
+
+ .graph-item2 {
+  height: 40px;
+ }
+
+
+ .graph-select{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+ }
+
+ .graph-select div:nth-child(2){
+  border-right: 1px solid #b5b4b4;
+  border-left: 1px solid #b5b4b4;
+  width: 100%;
+  text-align: center;
+  padding: 2px 0;
+ }
+
+ .graph-select select{
+  width: 40%;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 10px 0;
+  font-size: 16px;
+ }
+
+ .viewall-btn a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+ }
+
+
+ .purchases-details .info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .info .number{
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 30px;
+ }
