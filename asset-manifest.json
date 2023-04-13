@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DashboardUI/static/css/main.775ba331.css",
+    "main.js": "/DashboardUI/static/js/main.2afe8866.js",
+    "static/media/wave.png": "/DashboardUI/static/media/wave.9d60c9752e3483a3879b.png",
+    "index.html": "/DashboardUI/index.html",
+    "main.775ba331.css.map": "/DashboardUI/static/css/main.775ba331.css.map",
+    "main.2afe8866.js.map": "/DashboardUI/static/js/main.2afe8866.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.775ba331.css",
+    "static/js/main.2afe8866.js"
+  ]
+}
